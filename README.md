@@ -25,7 +25,6 @@ Students are expected to have strong programming skills and have completed at le
 This course has **no** textbooks or exams.
 We will read recent papers to understand trends and important topics in serving systems for GenAI.
 
-## Tentative Schedule and Reading List
 *This is an evolving list and the schedule is subject to changes.* 
 
 | Date    | Readings | Presenter | Reviewer |
@@ -48,7 +47,8 @@ We will read recent papers to understand trends and important topics in serving 
 | Sept 29 | **Memory Management** |  |  |
 |  | [Efficient Memory Management for Large Language Model Serving with PagedAttention](https://dl.acm.org/doi/10.1145/3600006.3613165) (Required) |  |  |
 |  | [vAttention: Dynamic Memory Management for Serving LLMs without PagedAttention](https://arxiv.org/abs/2405.04437) (Optional) |  |  |
-|  | [KunServe: Efficient Parameter-centric Memory Management for LLM Serving](https://arxiv.org/abs/2412.18169) (Required) |  |  |
+|  | [KunServe: Efficient Parameter-centric Memory Management for LLM Serving](https://arxiv.org/abs/2412.18169) (Optional) |  |  |
+|  | [KVCache Cache in the Wild: Characterizing and Optimizing KVCache Cache at a Large Cloud Provider](https://www.usenix.org/conference/atc25/presentation/wang-jiahao) (Required) |  |  |
 |  | [FlexGen: High-Throughput Generative Inference of Large Language Models with a Single GPU](https://proceedings.mlr.press/v202/sheng23a.html) (Required) |  |  |
 |  | [LLM in a flash: Efficient Large Language Model Inference with Limited Memory](https://arxiv.org/pdf/2312.11514) (optional) |  |  |
 | Oct 6 | **Prefill _vs._ Decode** |  |  |
@@ -56,7 +56,7 @@ We will read recent papers to understand trends and important topics in serving 
 |  | [Splitwise: Efficient generative LLM inference using phase splitting](https://arxiv.org/pdf/2311.18677) (Optional) |  |  |
 |  | [SARATHI: Efficient LLM Inference by Piggybacking Decodes with Chunked Prefills](https://arxiv.org/pdf/2308.16369) (Optional) |  |  |
 |  | [Taming Throughput-Latency Tradeoff in LLM Inference with Sarathi-Serve](https://arxiv.org/pdf/2403.02310) (Required) |  |  |
-|  | [PrefillOnly: An Inference Engine for Prefill-only Workloads in Large Language Model Applications](https://arxiv.org/abs/2505.07203) (Required) |  |  |
+|  | [MuxServe: Flexible Spatial-Temporal Multiplexing for Multiple LLM Serving](https://openreview.net/forum?id=R0SoZvqXyQ) (Required) |  |  |
 |  | [Mooncake: A KVCache-centric Disaggregated Architecture for LLM Serving](https://arxiv.org/pdf/2407.00079) (Optional) |  |  |
 | Oct 13 | **Reading Week — no class** |  |  |
 | Oct 20 | **Parallelism** |  |  |
@@ -68,6 +68,7 @@ We will read recent papers to understand trends and important topics in serving 
 |  | [Response Length Perception and Sequence Scheduling: An LLM-Empowered LLM Inference Pipeline](https://arxiv.org/pdf/2305.13144) (Optional) |  |  |
 |  | [Llumnix: Dynamic Scheduling for Large Language Model Serving](https://www.usenix.org/conference/osdi24/presentation/sun-biao) (Required) |  |  |
 |  | [Andes: Defining and Enhancing Quality-of-Experience in LLM-Based Text Streaming Services](https://arxiv.org/pdf/2404.16283) (Required) |  |  |
+|  | [JITServe: SLO-aware LLM Serving with Imprecise Request Information](https://www.usenix.org/conference/nsdi26/presentation/zhang-wei) (Optional) |  |  |
 |  | [ExeGPT: Constraint-Aware Resource Scheduling for LLM Inference](https://dl.acm.org/doi/pdf/10.1145/3620665.3640383)(Optional) |  |  |
 |  | [Aladdin: Joint Placement and Scaling for SLO-Aware LLM Serving](https://arxiv.org/pdf/2405.06856) (Optional) |  |  |
 | Nov 3 | **Faster Decoding + Project Proposal** |  |  |
@@ -79,9 +80,10 @@ We will read recent papers to understand trends and important topics in serving 
 |  | [ALTO: An Efficient Network Orchestrator for Compound AI Systems](https://arxiv.org/pdf/2403.04311) + [Conveyor: Efficient Tool-aware LLM Serving with Tool Partial Execution](https://arxiv.org/pdf/2406.00059) (Optional) |  |  |
 |  | [INFERCEPT: Efficient Intercept Support for Augmented Large Language Model Inference](https://arxiv.org/pdf/2402.01869) (Required) |  |  |
 |  | [The Shift from Models to Compound AI Systems](https://bair.berkeley.edu/blog/2024/02/18/compound-ai-systems/) (Background) |  |  |
-| Nov 17 | **Invited talks (detailed info on Piazza)** |  |  |
-|  | Multimodal Model Serving at Azure Clusters |  |  |
-|  | GPU sharing for Multi-LLM Serving |  |  |
+| Nov 17 | **Agentic Systems** |  |  |
+|  | [Agentix: An Efficient Serving Engine for LLM Agents as General Programs](https://www.usenix.org/conference/nsdi26/presentation/luo) (Required) |  |  |
+|  | [SkVM: Revisiting Language VM for Skills across Heterogeneous LLMs and Harnesses](https://github.com/SJTU-IPADS/SkVM) (Required) |  |  |
+|  | [Murakkab: Resource-Efficient Agentic Workflow Orchestration in Cloud Platforms](https://www.usenix.org/conference/osdi26/presentation/chaudhry) (Required) |  |  |
 | Nov 24 | **Serving with Retrieval-Augmented Generation and KV Cache Sharing** |  |  |
 |  | [Prompt Cache: Modular Attention Reuse for Low-Latency Inference](https://arxiv.org/pdf/2311.04934) (Required) |  |  |
 |  | [RAGCache: Efficient Knowledge Caching for Retrieval-Augmented Generation](https://arxiv.org/pdf/2404.12457) (Optional) |  |  |
@@ -100,14 +102,11 @@ We will read recent papers to understand trends and important topics in serving 
 |  | [Infinite-LLM: Efficient LLM Service for Long Context with DistAttention and Distributed KVCache](https://arxiv.org/abs/2401.02669) (Optional) |  |  |
 |  | [Fairness in Serving Large Language Models](https://www.usenix.org/conference/osdi24/presentation/sheng) (Required) |  |  |
 |  | [DeepSpeed-MoE: Advancing Mixture-of-Experts Inference and Training to Power Next-Generation AI Scale](https://arxiv.org/abs/2201.05596) (Optional) |  |  |
-|  | [MuxServe: Flexible Spatial-Temporal Multiplexing for Multiple LLM Serving](https://openreview.net/forum?id=R0SoZvqXyQ) (Optional) |  |  |
-|  | [DroidSpeak: KV Cache Sharing for Cross-LLM Communication and Multi-LLM Serving](https://arxiv.org/pdf/2411.02820) (Optional) |  |  |
 |  | [Mixture of LoRA Experts](https://openreview.net/forum?id=uWvKBCYh4S) (Optional) |  |  |
 |  | [Vidur: A Large-Scale Simulation Framework For LLM Inference](https://arxiv.org/abs/2405.05465) (Optional) |  |  |
 |  | [LLMServingSim: A HW/SW Co-Simulation Infrastructure for LLM Inference Serving at Scale](https://arxiv.org/abs/2408.05499v1) (Optional) |  |  |
 |  | [DeepSeek-V3 Technical Report](https://arxiv.org/html/2412.19437v1)(Optional) |  |  |
 | Dec 8 | **Final Project Presentations** |  |  |
-
 
 ## Policies
 
