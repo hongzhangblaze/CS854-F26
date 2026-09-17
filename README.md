@@ -48,14 +48,14 @@ We will read recent papers to understand trends and important topics in serving 
 |  | [Efficient Memory Management for Large Language Model Serving with PagedAttention](https://dl.acm.org/doi/10.1145/3600006.3613165) (Required) | Max Homm | Zhiang Wu |
 |  | [vAttention: Dynamic Memory Management for Serving LLMs without PagedAttention](https://arxiv.org/abs/2405.04437) (Optional) |  |  |
 |  | [KunServe: Efficient Parameter-centric Memory Management for LLM Serving](https://arxiv.org/abs/2412.18169) (Optional) |  |  |
-|  | [KVCache Cache in the Wild: Characterizing and Optimizing KVCache Cache at a Large Cloud Provider](https://www.usenix.org/conference/atc25/presentation/wang-jiahao) (Required) | |  Mu'men Al Jarah  |
+|  | [KVCache Cache in the Wild: Characterizing and Optimizing KVCache Cache at a Large Cloud Provider](https://www.usenix.org/conference/atc25/presentation/wang-jiahao) (Required) | Hala Mukheimer |  Mu'men Al Jarah  |
 |  | [FlexGen: High-Throughput Generative Inference of Large Language Models with a Single GPU](https://proceedings.mlr.press/v202/sheng23a.html) (Required) | Lingwei Gu | Haochen Gu |
 |  | [LLM in a flash: Efficient Large Language Model Inference with Limited Memory](https://arxiv.org/pdf/2312.11514) (optional) |  |  |
 | Oct 6 | **Prefill _vs._ Decode** |  |  |
 |  | [Distserve: Disaggregating Prefill and Decoding for Goodput-optimized Large Language Model Serving](https://www.usenix.org/system/files/osdi24-zhong-yinmin.pdf)  (required) |  |  |
 |  | [Splitwise: Efficient generative LLM inference using phase splitting](https://arxiv.org/pdf/2311.18677) (Optional) |  |  |
 |  | [SARATHI: Efficient LLM Inference by Piggybacking Decodes with Chunked Prefills](https://arxiv.org/pdf/2308.16369) (Optional) |  |  |
-|  | [Taming Throughput-Latency Tradeoff in LLM Inference with Sarathi-Serve](https://arxiv.org/pdf/2403.02310) (Required) | Mu'men Al Jarah |  |
+|  | [Taming Throughput-Latency Tradeoff in LLM Inference with Sarathi-Serve](https://arxiv.org/pdf/2403.02310) (Required) | Mu'men Al Jarah | Hala Mukheimer |
 |  | [MuxServe: Flexible Spatial-Temporal Multiplexing for Multiple LLM Serving](https://openreview.net/forum?id=R0SoZvqXyQ) (Required) |  |  |
 |  | [Mooncake: A KVCache-centric Disaggregated Architecture for LLM Serving](https://arxiv.org/pdf/2407.00079) (Optional) |  |  |
 | Oct 13 | **Reading Week — no class** |  |  |
