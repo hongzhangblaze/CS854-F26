@@ -45,8 +45,7 @@ We will read recent papers to understand trends and important topics in serving 
 |  | [Serving DNNs like Clockwork: Performance Predictability from the Bottom Up](https://www.usenix.org/system/files/osdi20-gujarati.pdf) (Required) |  |  |
 |  | [Orca: A Distributed Serving System for Transformer-Based Generative Models](https://www.usenix.org/system/files/osdi22-yu.pdf) (Required) |  |  |
 | Sept 29 | **Memory Management** |  |  |
-|  | [Efficient Memory Management for Large Language Model Serving with PagedAttention](https://dl.acm.org/doi/10.1145/3600006.3613165) (Required) | Max Homm | 
-Zhiang Wu |
+|  | [Efficient Memory Management for Large Language Model Serving with PagedAttention](https://dl.acm.org/doi/10.1145/3600006.3613165) (Required) | Max Homm | Zhiang Wu |
 |  | [vAttention: Dynamic Memory Management for Serving LLMs without PagedAttention](https://arxiv.org/abs/2405.04437) (Optional) |  |  |
 |  | [KunServe: Efficient Parameter-centric Memory Management for LLM Serving](https://arxiv.org/abs/2412.18169) (Optional) |  |  |
 |  | [KVCache Cache in the Wild: Characterizing and Optimizing KVCache Cache at a Large Cloud Provider](https://www.usenix.org/conference/atc25/presentation/wang-jiahao) (Required) |  |  |
@@ -67,8 +66,7 @@ Zhiang Wu |
 | Oct 27 | **Scheduling** |  |  |
 |  | [Fast Distributed Inference Serving for Large Language Models](https://arxiv.org/pdf/2305.05920) (Required) |  |  |
 |  | [Response Length Perception and Sequence Scheduling: An LLM-Empowered LLM Inference Pipeline](https://arxiv.org/pdf/2305.13144) (Optional) |  |  |
-|  | [Llumnix: Dynamic Scheduling for Large Language Model Serving](https://www.usenix.org/conference/osdi24/presentation/sun-biao) (Required) | Idil Kara | 
-Brandon Zhou |
+|  | [Llumnix: Dynamic Scheduling for Large Language Model Serving](https://www.usenix.org/conference/osdi24/presentation/sun-biao) (Required) | Idil Kara | Brandon Zhou |
 |  | [Andes: Defining and Enhancing Quality-of-Experience in LLM-Based Text Streaming Services](https://arxiv.org/pdf/2404.16283) (Required) |  |  |
 |  | [JITServe: SLO-aware LLM Serving with Imprecise Request Information](https://www.usenix.org/conference/nsdi26/presentation/zhang-wei) (Optional) |  |  |
 |  | [ExeGPT: Constraint-Aware Resource Scheduling for LLM Inference](https://dl.acm.org/doi/pdf/10.1145/3620665.3640383)(Optional) |  |  |
