@@ -61,13 +61,13 @@ We will read recent papers to understand trends and important topics in serving 
 | Oct 13 | **Reading Week — no class** |  |  |
 | Oct 20 | **Parallelism** |  |  |
 |  | [AlpaServe: Statistical Multiplexing with Model Parallelism for Deep Learning Serving](https://www.usenix.org/system/files/osdi23-li-zhuohan.pdf) (Required) |   |  |
-|  | [Liger: Interleaving Intra- and Inter-Operator Parallelism for Distributed Large Model Inference](https://dl.acm.org/doi/abs/10.1145/3627535.3638466) (Required) |  |  |
+|  | [Liger: Interleaving Intra- and Inter-Operator Parallelism for Distributed Large Model Inference](https://dl.acm.org/doi/abs/10.1145/3627535.3638466) (Required) |  | Omar Ankit  |
 |  | [LoongServe: Efficiently Serving Long-context Large Language Models with Elastic Sequence Parallelism](https://arxiv.org/pdf/2404.09526) (Required) |  Eyoel Matiwos | Lingwei Gu  |
 | Oct 27 | **Scheduling** |  |  |
 |  | [Fast Distributed Inference Serving for Large Language Models](https://arxiv.org/pdf/2305.05920) (Required) |  |  |
 |  | [Response Length Perception and Sequence Scheduling: An LLM-Empowered LLM Inference Pipeline](https://arxiv.org/pdf/2305.13144) (Optional) |  |  |
 |  | [Llumnix: Dynamic Scheduling for Large Language Model Serving](https://www.usenix.org/conference/osdi24/presentation/sun-biao) (Required) | Idil Kara | Brandon Zhou |
-|  | [Andes: Defining and Enhancing Quality-of-Experience in LLM-Based Text Streaming Services](https://arxiv.org/pdf/2404.16283) (Required) |  |  |
+|  | [Andes: Defining and Enhancing Quality-of-Experience in LLM-Based Text Streaming Services](https://arxiv.org/pdf/2404.16283) (Required) |  | Mohammad Zakout |
 |  | [JITServe: SLO-aware LLM Serving with Imprecise Request Information](https://www.usenix.org/conference/nsdi26/presentation/zhang-wei) (Optional) |  |  |
 |  | [ExeGPT: Constraint-Aware Resource Scheduling for LLM Inference](https://dl.acm.org/doi/pdf/10.1145/3620665.3640383)(Optional) |  |  |
 |  | [Aladdin: Joint Placement and Scaling for SLO-Aware LLM Serving](https://arxiv.org/pdf/2405.06856) (Optional) |  |  |
@@ -77,13 +77,13 @@ We will read recent papers to understand trends and important topics in serving 
 | Nov 10 | **Compound AI Systems** |  |  |
 |  | [Parrot: Efficient Serving of LLM-based Applications with Semantic Variable](https://www.usenix.org/system/files/osdi24-lin-chaofan.pdf) (Required) | Arsh Parmar | 
 Rikard Saqe |
-|  | [Teola: Towards End-to-End Optimization of LLM-based Applications](https://arxiv.org/abs/2407.00326) (Required) |  |  |
+|  | [Teola: Towards End-to-End Optimization of LLM-based Applications](https://arxiv.org/abs/2407.00326) (Required) | Omar Ankit |  |
 |  | [ALTO: An Efficient Network Orchestrator for Compound AI Systems](https://arxiv.org/pdf/2403.04311) + [Conveyor: Efficient Tool-aware LLM Serving with Tool Partial Execution](https://arxiv.org/pdf/2406.00059) (Optional) |  |  |
 |  | [INFERCEPT: Efficient Intercept Support for Augmented Large Language Model Inference](https://arxiv.org/pdf/2402.01869) (Required) |  | Max Homm |
 |  | [The Shift from Models to Compound AI Systems](https://bair.berkeley.edu/blog/2024/02/18/compound-ai-systems/) (Background) |  |  |
 | Nov 17 | **Agentic Systems** |  |  |
 |  | [Agentix: An Efficient Serving Engine for LLM Agents as General Programs](https://www.usenix.org/conference/nsdi26/presentation/luo) (Required) | Zhiang Wu | Xiangru Jian |
-|  | [SkVM: Revisiting Language VM for Skills across Heterogeneous LLMs and Harnesses](https://github.com/SJTU-IPADS/SkVM) (Required) |  |  |
+|  | [SkVM: Revisiting Language VM for Skills across Heterogeneous LLMs and Harnesses](https://github.com/SJTU-IPADS/SkVM) (Required) |  |   |
 |  | [Murakkab: Resource-Efficient Agentic Workflow Orchestration in Cloud Platforms](https://www.usenix.org/conference/osdi26/presentation/chaudhry) (Required) | Bradon Zhou | Naufal Wibawa  |
 | Nov 24 | **Serving with Retrieval-Augmented Generation and KV Cache Sharing** |  |  |
 |  | [Prompt Cache: Modular Attention Reuse for Low-Latency Inference](https://arxiv.org/pdf/2311.04934) (Required) | Jerry Bao |  |
@@ -92,7 +92,7 @@ Rikard Saqe |
 |  | [DroidSpeak: KV Cache Sharing for Cross-LLM Communication and Multi-LLM Serving](https://arxiv.org/pdf/2411.02820) (Required) | Rikard Saqe |  |
 | Dec 1 | **Serving in the Wild** |  |  |
 |  | [SpotServe: Serving Generative Large Language Models on Preemptible Instances](https://arxiv.org/pdf/2311.15566) (Optional) |  |  |
-|  | [ServerlessLLM: Locality-Enhanced Serverless Inference for Large Language Models](https://arxiv.org/pdf/2401.14351)  (Required) | Naufal Wibawa  |  |
+|  | [ServerlessLLM: Locality-Enhanced Serverless Inference for Large Language Models](https://arxiv.org/pdf/2401.14351)  (Required) | Naufal Wibawa  | Arsh Parmar |
 |  | [M´elange: Cost-Efficient Large Language Model Serving by Exploiting GPU Heterogeneity](https://arxiv.org/pdf/2404.14527) (Optional) |  |  |
 |  | [Helix: Distributed Serving of Large Language Models via Max-Flow on Heterogeneous GPUs](https://arxiv.org/pdf/2406.01566) (Optional) |  |  |
 |  | [Stateful Large Language Model Serving with Pensieve](https://arxiv.org/pdf/2312.05516) (Optional) |  |  |
@@ -101,7 +101,7 @@ Rikard Saqe |
 |  | [CacheGen: KV Cache Compression and Streaming for Fast Large Language Model Serving](https://arxiv.org/abs/2310.07240) (Optional) |  |  |
 |  | [Cost-Efficient Large Language Model Serving for Multi-turn Conversations with CachedAttention](https://arxiv.org/abs/2403.19708) (Optional) |  |  |
 |  | [Infinite-LLM: Efficient LLM Service for Long Context with DistAttention and Distributed KVCache](https://arxiv.org/abs/2401.02669) (Optional) |  |  |
-|  | [Fairness in Serving Large Language Models](https://www.usenix.org/conference/osdi24/presentation/sheng) (Required) |  | Jerry Bao |
+|  | [Fairness in Serving Large Language Models](https://www.usenix.org/conference/osdi24/presentation/sheng) (Required) | Mohammad Zakout | Jerry Bao |
 |  | [DeepSpeed-MoE: Advancing Mixture-of-Experts Inference and Training to Power Next-Generation AI Scale](https://arxiv.org/abs/2201.05596) (Optional) |  |  |
 |  | [Mixture of LoRA Experts](https://openreview.net/forum?id=uWvKBCYh4S) (Optional) |  |  |
 |  | [Vidur: A Large-Scale Simulation Framework For LLM Inference](https://arxiv.org/abs/2405.05465) (Optional) |  |  |
