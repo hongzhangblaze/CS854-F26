@@ -61,7 +61,7 @@ We will read recent papers to understand trends and important topics in serving 
 | Oct 13 | **Reading Week — no class** |  |  |
 | Oct 20 | **Parallelism** |  |  |
 |  | [AlpaServe: Statistical Multiplexing with Model Parallelism for Deep Learning Serving](https://www.usenix.org/system/files/osdi23-li-zhuohan.pdf) (Required) |   |  |
-|  | [Liger: Interleaving Intra- and Inter-Operator Parallelism for Distributed Large Model Inference](https://dl.acm.org/doi/abs/10.1145/3627535.3638466) (Required) |  | Omar Ankit  |
+|  | [Liger: Interleaving Intra- and Inter-Operator Parallelism for Distributed Large Model Inference](https://dl.acm.org/doi/abs/10.1145/3627535.3638466) (Required) | Erjing Luo  | Omar Ankit  |
 |  | [LoongServe: Efficiently Serving Long-context Large Language Models with Elastic Sequence Parallelism](https://arxiv.org/pdf/2404.09526) (Required) |  Eyoel Matiwos | Lingwei Gu  |
 | Oct 27 | **Scheduling** |  |  |
 |  | [Fast Distributed Inference Serving for Large Language Models](https://arxiv.org/pdf/2305.05920) (Required) |  |  |
@@ -76,7 +76,7 @@ We will read recent papers to understand trends and important topics in serving 
 |  | [Break the Sequential Dependency of LLM Inference Using Lookahead Decoding](https://arxiv.org/pdf/2402.02057) (Optional) |  |  |
 | Nov 10 | **Compound AI Systems** |  |  |
 |  | [Parrot: Efficient Serving of LLM-based Applications with Semantic Variable](https://www.usenix.org/system/files/osdi24-lin-chaofan.pdf) (Required) | Arsh Parmar | Rikard Saqe |
-|  | [Teola: Towards End-to-End Optimization of LLM-based Applications](https://arxiv.org/abs/2407.00326) (Required) | Omar Ankit |  |
+|  | [Teola: Towards End-to-End Optimization of LLM-based Applications](https://arxiv.org/abs/2407.00326) (Required) | Omar Ankit | Erjing Luo   |
 |  | [ALTO: An Efficient Network Orchestrator for Compound AI Systems](https://arxiv.org/pdf/2403.04311) + [Conveyor: Efficient Tool-aware LLM Serving with Tool Partial Execution](https://arxiv.org/pdf/2406.00059) (Optional) |  |  |
 |  | [INFERCEPT: Efficient Intercept Support for Augmented Large Language Model Inference](https://arxiv.org/pdf/2402.01869) (Required) |  | Max Homm |
 |  | [The Shift from Models to Compound AI Systems](https://bair.berkeley.edu/blog/2024/02/18/compound-ai-systems/) (Background) |  |  |
