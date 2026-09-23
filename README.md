@@ -60,11 +60,11 @@ We will read recent papers to understand trends and important topics in serving 
 |  | [Mooncake: A KVCache-centric Disaggregated Architecture for LLM Serving](https://arxiv.org/pdf/2407.00079) (Optional) |  |  |
 | Oct 13 | **Reading Week — no class** |  |  |
 | Oct 20 | **Parallelism** |  |  |
-|  | [AlpaServe: Statistical Multiplexing with Model Parallelism for Deep Learning Serving](https://www.usenix.org/system/files/osdi23-li-zhuohan.pdf) (Required) |   |  |
+|  | [AlpaServe: Statistical Multiplexing with Model Parallelism for Deep Learning Serving](https://www.usenix.org/system/files/osdi23-li-zhuohan.pdf) (Required) |   | Henry Zhang |
 |  | [Liger: Interleaving Intra- and Inter-Operator Parallelism for Distributed Large Model Inference](https://dl.acm.org/doi/abs/10.1145/3627535.3638466) (Required) | Erjing Luo  | Omar Ankit  |
 |  | [LoongServe: Efficiently Serving Long-context Large Language Models with Elastic Sequence Parallelism](https://arxiv.org/pdf/2404.09526) (Required) |  Eyoel Matiwos | Lingwei Gu  |
 | Oct 27 | **Scheduling** |  |  |
-|  | [Fast Distributed Inference Serving for Large Language Models](https://arxiv.org/pdf/2305.05920) (Required) |  |  |
+|  | [Fast Distributed Inference Serving for Large Language Models](https://arxiv.org/pdf/2305.05920) (Required) | Henry Zhang |  |
 |  | [Response Length Perception and Sequence Scheduling: An LLM-Empowered LLM Inference Pipeline](https://arxiv.org/pdf/2305.13144) (Optional) |  |  |
 |  | [Llumnix: Dynamic Scheduling for Large Language Model Serving](https://www.usenix.org/conference/osdi24/presentation/sun-biao) (Required) | Idil Kara | Brandon Zhou |
 |  | [Andes: Defining and Enhancing Quality-of-Experience in LLM-Based Text Streaming Services](https://arxiv.org/pdf/2404.16283) (Required) | Jacob Youssef | Aima Shahid|
