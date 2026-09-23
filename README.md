@@ -78,7 +78,7 @@ We will read recent papers to understand trends and important topics in serving 
 |  | [Parrot: Efficient Serving of LLM-based Applications with Semantic Variable](https://www.usenix.org/system/files/osdi24-lin-chaofan.pdf) (Required) | Arsh Parmar | Rikard Saqe |
 |  | [Teola: Towards End-to-End Optimization of LLM-based Applications](https://arxiv.org/abs/2407.00326) (Required) | Omar Ankit | Erjing Luo   |
 |  | [ALTO: An Efficient Network Orchestrator for Compound AI Systems](https://arxiv.org/pdf/2403.04311) + [Conveyor: Efficient Tool-aware LLM Serving with Tool Partial Execution](https://arxiv.org/pdf/2406.00059) (Optional) |  |  |
-|  | [INFERCEPT: Efficient Intercept Support for Augmented Large Language Model Inference](https://arxiv.org/pdf/2402.01869) (Required) |  | Max Homm |
+|  | [INFERCEPT: Efficient Intercept Support for Augmented Large Language Model Inference](https://arxiv.org/pdf/2402.01869) (Required) | Mark Ma | Max Homm |
 |  | [The Shift from Models to Compound AI Systems](https://bair.berkeley.edu/blog/2024/02/18/compound-ai-systems/) (Background) |  |  |
 | Nov 17 | **Agentic Systems** |  |  |
 |  | [Agentix: An Efficient Serving Engine for LLM Agents as General Programs](https://www.usenix.org/conference/nsdi26/presentation/luo) (Required) | Zhiang Wu | Xiangru Jian |
@@ -88,7 +88,7 @@ We will read recent papers to understand trends and important topics in serving 
 |  | [Prompt Cache: Modular Attention Reuse for Low-Latency Inference](https://arxiv.org/pdf/2311.04934) (Required) | Jerry Bao | Mohammad Zakout |
 |  | [RAGCache: Efficient Knowledge Caching for Retrieval-Augmented Generation](https://arxiv.org/pdf/2404.12457) (Optional) |  |  |
 |  | [CacheBlend: Fast Large Language Model Serving for RAG with Cached Knowledge Fusion](https://arxiv.org/abs/2405.16444) (Required) | Omar Al-Saleh | Idil Kara |
-|  | [DroidSpeak: KV Cache Sharing for Cross-LLM Communication and Multi-LLM Serving](https://arxiv.org/pdf/2411.02820) (Required) | Rikard Saqe |  |
+|  | [DroidSpeak: KV Cache Sharing for Cross-LLM Communication and Multi-LLM Serving](https://arxiv.org/pdf/2411.02820) (Required) | Rikard Saqe | Mark Ma |
 | Dec 1 | **Serving in the Wild** |  |  |
 |  | [SpotServe: Serving Generative Large Language Models on Preemptible Instances](https://arxiv.org/pdf/2311.15566) (Optional) |  |  |
 |  | [ServerlessLLM: Locality-Enhanced Serverless Inference for Large Language Models](https://arxiv.org/pdf/2401.14351)  (Required) | Naufal Wibawa  | Arsh Parmar |
