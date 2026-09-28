@@ -84,6 +84,7 @@ We will read recent papers to understand trends and important topics in serving 
 |  | [Agentix: An Efficient Serving Engine for LLM Agents as General Programs](https://www.usenix.org/conference/nsdi26/presentation/luo) (Required) | Zhiang Wu | Xiangru Jian |
 |  | [SkVM: Revisiting Language VM for Skills across Heterogeneous LLMs and Harnesses](https://github.com/SJTU-IPADS/SkVM) (Required) |  |   |
 |  | [Murakkab: Resource-Efficient Agentic Workflow Orchestration in Cloud Platforms](https://www.usenix.org/conference/osdi26/presentation/chaudhry) (Required) | Brandon Zhou | Naufal Wibawa  |
+|  | [TraceLab: Characterizing Coding Agent Workloads for LLM Serving](https://tracelab.cs.washington.edu/paper.pdf) (Optional) |   |   |
 | Nov 24 | **Serving with Retrieval-Augmented Generation and KV Cache Sharing** |  |  |
 |  | [Prompt Cache: Modular Attention Reuse for Low-Latency Inference](https://arxiv.org/pdf/2311.04934) (Required) | Jerry Bao | Mohammad Zakout |
 |  | [RAGCache: Efficient Knowledge Caching for Retrieval-Augmented Generation](https://arxiv.org/pdf/2404.12457) (Optional) |  |  |
