@@ -82,7 +82,7 @@ We will read recent papers to understand trends and important topics in serving 
 |  | [The Shift from Models to Compound AI Systems](https://bair.berkeley.edu/blog/2024/02/18/compound-ai-systems/) (Background) |  |  |
 | Nov 17 | **Agentic Systems** |  |  |
 |  | [Agentix: An Efficient Serving Engine for LLM Agents as General Programs](https://www.usenix.org/conference/nsdi26/presentation/luo) (Required) | Zhiang Wu | Xiangru Jian |
-|  | [SkVM: Revisiting Language VM for Skills across Heterogeneous LLMs and Harnesses](https://github.com/SJTU-IPADS/SkVM) (Required) |  |   |
+|  | [SkVM: Revisiting Language VM for Skills across Heterogeneous LLMs and Harnesses](https://github.com/SJTU-IPADS/SkVM) (Required) | Alex Power |  Hanyun Guo |
 |  | [Murakkab: Resource-Efficient Agentic Workflow Orchestration in Cloud Platforms](https://www.usenix.org/conference/osdi26/presentation/chaudhry) (Required) | Brandon Zhou | Naufal Wibawa  |
 |  | [TraceLab: Characterizing Coding Agent Workloads for LLM Serving](https://tracelab.cs.washington.edu/paper.pdf) (Optional) |   |   |
 | Nov 24 | **Serving with Retrieval-Augmented Generation and KV Cache Sharing** |  |  |
@@ -97,7 +97,7 @@ We will read recent papers to understand trends and important topics in serving 
 |  | [Helix: Distributed Serving of Large Language Models via Max-Flow on Heterogeneous GPUs](https://arxiv.org/pdf/2406.01566) (Optional) |  |  |
 |  | [Stateful Large Language Model Serving with Pensieve](https://arxiv.org/pdf/2312.05516) (Optional) |  |  |
 |  | **Other Important Topics (Cache management, Multi-tenancy, MoE, Fairness, Serving Simulator Design, etc.)** |  |  |
-|  | [InfiniGen: Efficient Generative Inference of Large Language Models with Dynamic KV Cache Management](https://arxiv.org/pdf/2406.19707) (Required) |  |  |
+|  | [InfiniGen: Efficient Generative Inference of Large Language Models with Dynamic KV Cache Management](https://arxiv.org/pdf/2406.19707) (Required) | Hanyun Guo | Alex Power |
 |  | [CacheGen: KV Cache Compression and Streaming for Fast Large Language Model Serving](https://arxiv.org/abs/2310.07240) (Optional) |  |  |
 |  | [Cost-Efficient Large Language Model Serving for Multi-turn Conversations with CachedAttention](https://arxiv.org/abs/2403.19708) (Optional) |  |  |
 |  | [Infinite-LLM: Efficient LLM Service for Long Context with DistAttention and Distributed KVCache](https://arxiv.org/abs/2401.02669) (Optional) |  |  |
