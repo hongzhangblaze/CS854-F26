@@ -62,9 +62,9 @@ We will read recent papers to understand trends and important topics in serving 
 | Oct 20 | **Parallelism** |  |  |
 |  | [AlpaServe: Statistical Multiplexing with Model Parallelism for Deep Learning Serving](https://www.usenix.org/system/files/osdi23-li-zhuohan.pdf) (Required) | Tien Dat Nguyen   | Henry Zhang |
 |  | [Liger: Interleaving Intra- and Inter-Operator Parallelism for Distributed Large Model Inference](https://dl.acm.org/doi/abs/10.1145/3627535.3638466) (Required) | Erjing Luo  | Omar Ankit  |
-|  | [LoongServe: Efficiently Serving Long-context Large Language Models with Elastic Sequence Parallelism](https://arxiv.org/pdf/2404.09526) (Required) |  Eyoel Matiwos | Lingwei Gu  |
+|  | [LoongServe: Efficiently Serving Long-context Large Language Models with Elastic Sequence Parallelism](https://arxiv.org/pdf/2404.09526) (Required) |  Eyoel Matiwos | Lingwei Gu, Anmol Atul Ghadia  |
 | Oct 27 | **Scheduling** |  |  |
-|  | [Fast Distributed Inference Serving for Large Language Models](https://arxiv.org/pdf/2305.05920) (Required) | Henry Zhang | Tien Dat Nguyen  |
+|  | [Fast Distributed Inference Serving for Large Language Models](https://arxiv.org/pdf/2305.05920) (Required) | Henry Zhang, Anmol Atul Ghadia | Tien Dat Nguyen  |
 |  | [Response Length Perception and Sequence Scheduling: An LLM-Empowered LLM Inference Pipeline](https://arxiv.org/pdf/2305.13144) (Optional) |  |  |
 |  | [Llumnix: Dynamic Scheduling for Large Language Model Serving](https://www.usenix.org/conference/osdi24/presentation/sun-biao) (Required) | Idil Kara | Brandon Zhou |
 |  | [Andes: Defining and Enhancing Quality-of-Experience in LLM-Based Text Streaming Services](https://arxiv.org/pdf/2404.16283) (Required) | Jacob Youssef | Aima Shahid|
@@ -81,7 +81,7 @@ We will read recent papers to understand trends and important topics in serving 
 |  | [INFERCEPT: Efficient Intercept Support for Augmented Large Language Model Inference](https://arxiv.org/pdf/2402.01869) (Required) | Mark Ma | Max Homm |
 |  | [The Shift from Models to Compound AI Systems](https://bair.berkeley.edu/blog/2024/02/18/compound-ai-systems/) (Background) |  |  |
 | Nov 17 | **Agentic Systems** |  |  |
-|  | [Agentix: An Efficient Serving Engine for LLM Agents as General Programs](https://www.usenix.org/conference/nsdi26/presentation/luo) (Required) | Zhiang Wu | Xiangru Jian |
+|  | [Agentix: An Efficient Serving Engine for LLM Agents as General Programs](https://www.usenix.org/conference/nsdi26/presentation/luo) (Required) | Zhiang Wu, Zhifan Li | Xiangru Jian |
 |  | [SkVM: Revisiting Language VM for Skills across Heterogeneous LLMs and Harnesses](https://github.com/SJTU-IPADS/SkVM) (Required) | Alex Power |  Hanyun Guo |
 |  | [Murakkab: Resource-Efficient Agentic Workflow Orchestration in Cloud Platforms](https://www.usenix.org/conference/osdi26/presentation/chaudhry) (Required) | Brandon Zhou | Naufal Wibawa  |
 |  | [TraceLab: Characterizing Coding Agent Workloads for LLM Serving](https://tracelab.cs.washington.edu/paper.pdf) (Optional) |   |   |
