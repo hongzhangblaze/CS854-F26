@@ -62,7 +62,7 @@ We will read recent papers to understand trends and important topics in serving 
 | Oct 20 | **Parallelism** |  |  |
 |  | [AlpaServe: Statistical Multiplexing with Model Parallelism for Deep Learning Serving](https://www.usenix.org/system/files/osdi23-li-zhuohan.pdf) (Required) | Tien Dat Nguyen   | Henry Zhang |
 |  | [Liger: Interleaving Intra- and Inter-Operator Parallelism for Distributed Large Model Inference](https://dl.acm.org/doi/abs/10.1145/3627535.3638466) (Required) | Erjing Luo  | Omar Ankit  |
-|  | [LoongServe: Efficiently Serving Long-context Large Language Models with Elastic Sequence Parallelism](https://arxiv.org/pdf/2404.09526) (Required) |  Eyoel Matiwos | Lingwei Gu, Anmol Atul Ghadia  |
+|  | [LoongServe: Efficiently Serving Long-context Large Language Models with Elastic Sequence Parallelism](https://arxiv.org/pdf/2404.09526) (Required) |  Eyoel Matiwos, Xiyao Wang | Lingwei Gu, Anmol Atul Ghadia  |
 | Oct 27 | **Scheduling** |  |  |
 |  | [Fast Distributed Inference Serving for Large Language Models](https://arxiv.org/pdf/2305.05920) (Required) | Henry Zhang, Anmol Atul Ghadia | Tien Dat Nguyen  |
 |  | [Response Length Perception and Sequence Scheduling: An LLM-Empowered LLM Inference Pipeline](https://arxiv.org/pdf/2305.13144) (Optional) |  |  |
